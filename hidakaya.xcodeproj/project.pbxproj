@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335336A027D73A7E00C08B15 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3353369F27D73A7E00C08B15 /* WebView.swift */; };
 		33F121C327D6F74E0083BDBD /* hidakayaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F121C227D6F74E0083BDBD /* hidakayaApp.swift */; };
 		33F121C527D6F74E0083BDBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F121C427D6F74E0083BDBD /* ContentView.swift */; };
 		33F121C727D6F7500083BDBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F121C627D6F7500083BDBD /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3353369F27D73A7E00C08B15 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		33F121BF27D6F74E0083BDBD /* hidakaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hidakaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F121C227D6F74E0083BDBD /* hidakayaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hidakayaApp.swift; sourceTree = "<group>"; };
 		33F121C427D6F74E0083BDBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				33F121D027D6F7690083BDBD /* Info.plist */,
 				33F121C227D6F74E0083BDBD /* hidakayaApp.swift */,
 				33F121C427D6F74E0083BDBD /* ContentView.swift */,
+				3353369F27D73A7E00C08B15 /* WebView.swift */,
 				33F121C627D6F7500083BDBD /* Assets.xcassets */,
 				33F121C827D6F7500083BDBD /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335336A027D73A7E00C08B15 /* WebView.swift in Sources */,
 				33F121C527D6F74E0083BDBD /* ContentView.swift in Sources */,
 				33F121C327D6F74E0083BDBD /* hidakayaApp.swift in Sources */,
 			);
@@ -269,23 +273,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"hidakaya/Preview Content\"";
 				DEVELOPMENT_TEAM = MZ644733F8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hidakaya/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "熱烈！日高屋";
+				INFOPLIST_KEY_CFBundleDisplayName = "熱烈!!日高屋";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = tk.4649.dev.hidakaya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -300,23 +305,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"hidakaya/Preview Content\"";
 				DEVELOPMENT_TEAM = MZ644733F8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = hidakaya/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "熱烈！日高屋";
+				INFOPLIST_KEY_CFBundleDisplayName = "熱烈!!日高屋";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = tk.4649.dev.hidakaya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
